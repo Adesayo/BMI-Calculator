@@ -1,0 +1,41 @@
+
+body{
+  margin: 0;
+  background-color: #1b3865;
+  }
+  #head{
+    height: 10vh;
+    width: 100%;
+    margin:
+  }
+  #container{
+  width:80%;
+  max-width: 1000px;
+  margin: 1% auto;
+  background-color: #fffcf6;
+  padding: 5%;
+  height: 80vh;
+}
+form{
+  width: 100%;
+  margin: 0 auto;
+}
+
+label{
+  display: inline-block;
+  margin-left: 15%;
+}
+input{
+  outline: none;
+  margin:5% 15%;
+  font-size: 200%;
+  background: transparent;
+  padding: 4% 0;
+  width: 70%;
+  border:0;
+  border-bottom: 3px solid red;
+  transition:all 0.5s;
+}
+input:focus{
+  width:90%;
+}
